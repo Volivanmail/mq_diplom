@@ -9,45 +9,326 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__container">
+        <div class="header--container">
             <div class="top-panel">
                 <img src="svg/noemi-logo.svg" class="logo" alt="Логотип">
                 <nav class="menu">
                     <ul class="menu-items">
                         <li class="menu-item">
-                            <a href="#0" class="menu__link">Главная</a>
+                            <a href="#0" class="menu--link">Главная</a>
                         </li>
                         <li class="menu-item">
-                            <a href="#0" class="menu__link">Посты</a>
+                            <a href="#0" class="menu--link">Посты</a>
                         </li>
                         <li class="menu-item">
-                            <a href="#0" class="menu__link">Статьи</a>
+                            <a href="#0" class="menu--link">Статьи</a>
                         </li>
                         <li class="menu-item">
-                            <a href="#0" class="menu__link">Теги</a>
+                            <a href="#0" class="menu--link">Теги</a>
                         </li>
                         <li class="menu-item">
-                            <a href="#0" class="menu__link">Темы</a>
+                            <a href="#0" class="menu--link">Темы</a>
                         </li>
                         <li class="menu-item">
-                            <a href="#0" class="menu__link">Контакты</a>
+                            <a href="#0" class="menu--link">Контакты</a>
                         </li>
                     </ul>
                 </nav>
             </div>
-            <div class="header__title">
-                <h1 class="title">блог о творчестве, спорте, и образе жизни</h1>
+            <div class="header--title">
+                <h1 class="title-first">блог о творчестве, спорте, и образе жизни</h1>
             </div>
         </div>
     </header>
 
-    <main>
+    <section class="trends">
+        <div class="trends--title">
+            <h2 class="title-secondary">сейчас в тренде</h2>
+            <div class="line-bottom"></div>
+        </div>
+        <ul class="trends-items">
+            <li class="trend" style="background-image: url(/images/trend1.jpg);">
+                <div class="trend-container">
+                    <ul class="trend-categories" >
+                        <li class="trend-category">
+                            <a href="#0" class="trend-category--link">
+                                Lifestyle
+                            </a>
+                        </li>
+                        <li class="trend-category">
+                            <a href="#0" class="trend-category--link">
+                                INTERIOR
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#0" class="trend-title">
+                        Сейчас в тренде: сад  на подоконнике
+                    </a>
+                </div>
+            </li>
+            <li class="trend" style="background-image: url(/images/trend2.jpg);">
+                <div class="trend-container">
+                    <ul class="trend-categories" >
+                        <li class="trend-category">
+                            <a href="#0" class="trend-category--link">
+                                Food
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#0" class="trend-title">
+                        сыры на красивых  картинках из интернета: какие они на вкус?
+                    </a>
+                </div>
+            </li>
+            <li class="trend" style="background-image: url(/images/trend3.jpg);">
+                <div class="trend-container">
+                    <ul class="trend-categories" >
+                        <li class="trend-category">
+                            <a href="#0" class="trend-category--link">
+                                Lifestyle
+                            </a>
+                        </li>
+                        <li class="trend-category">
+                            <a href="#0" class="trend-category--link">
+                                tRAVEL
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#0" class="trend-title">
+                        СОБИРАЕМСЯ В ПЕРВЫЙ ПОХОД В ГОРЫ
+                    </a>
+                </div>
+            </li>
+            <li class="trend" style="background-image: url(/images/trend4.jpg);">
+                <div class="trend-container">
+                    <ul class="trend-categories" >
+                        <li class="trend-category">
+                            <a href="#0" class="trend-category--link">
+                                Food
+                            </a>
+                        </li>
+                        <li class="trend-category">
+                            <a href="#0" class="trend-category--link">
+                                health
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#0" class="trend-title">
+                        Сейчас в тренде: сКОЛЬКО ВИТАМИНА c В ЛИМОНАХ?
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <main class="main">
+        <div class="post">
+            <div class="posts-column">
+                <ul class="posts-list">
+                    <li class="post-list--item">
+                        <img class="post-list--item--image"  src="/images/last-post1.jpg" alt="Картинка песчанный берег">
+                        <div class="post-list--item--content">
+                            <ul class="trend-categories" >
+                                <li class="trend-category">
+                                    <a href="#0" class="trend-category--link">
+                                        Travel
+                                    </a>
+                                </li>
+                                <li class="trend-category">
+                                    <a href="#0" class="trend-category--link">
+                                        Health
+                                    </a>
+                                </li>
+                            </ul>
+                            <h2 class="title-secondary title-secondary--post-list--item--content">
+                                <a href="#0" class="title--link">
+                                    10 мест, ради которых стоит проснуться на рассвете
+                                </a>
+                            </h2>
+                            <div class="post-list--item--date-author">
+                                <div class="post-list--item--date">
+                                    10 июня 2019
+                                </div>
+                                <div class="post-list--item--author">
+                                    Неизвестный автор
+                                </div>
+                            </div>
+                            <p class="post-list--item--description">
+                                Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел,
+                                 запущены фонтаны города... Музеи еще закрыты. Что посмотреть?
+                            </p>
+                        </div>
+                    </li>
+                    <li class="post-list--item">
+                        <img class="post-list--item--image"  src="/images/last-post2.jpg" alt="Картинка занятие йогой">
+                        <div class="post-list--item--content">
+                            <ul class="trend-categories" >
+                                <li class="trend-category">
+                                    <a href="#0" class="trend-category--link">
+                                        Health
+                                    </a>
+                                </li>
+                                <li class="trend-category">
+                                    <a href="#0" class="trend-category--link">
+                                        lifestyle
+                                    </a>
+                                </li>
+                            </ul>
+                            <h2 class="title-secondary title-secondary--post-list--item--content">
+                                <a href="#0" class="title--link">
+                                    ЙОга для начинающих в домашних условиях
+                                </a>
+                            </h2>
+                            <div class="post-list--item--date-author">
+                                <div class="post-list--item--date">
+                                    10 июня 2019
+                                </div>
+                                <div class="post-list--item--author">
+                                    Неизвестный автор
+                                </div>
+                            </div>
+                            <p class="post-list--item--description">
+                                Расскажем, какие упражнения выбрать и как сделать
+                                 коврик для занитий йогой изтого, что можено найти в шкафую
+                            </p>
+                        </div>
+                    </li>
+                    <li class="post-list--item">
+                        <img class="post-list--item--image"  src="/images/last-post3.jpg" alt="Картинка музыкальные фистевали">
+                        <div class="post-list--item--content">
+                            <ul class="trend-categories" >
+                                <li class="trend-category">
+                                    <a href="#0" class="trend-category--link">
+                                        music
+                                    </a>
+                                </li>
+                            </ul>
+                            <h2 class="title-secondary title-secondary--post-list--item--content">
+                                <a href="#0" class="title--link">
+                                    Лучшие музыкальные фестивали этого лета
+                                </a>
+                            </h2>
+                            <div class="post-list--item--date-author">
+                                <div class="post-list--item--date">
+                                    10 июня 2019
+                                </div>
+                                <div class="post-list--item--author">
+                                    Неизвестный автор
+                                </div>
+                            </div>
+                            <p class="post-list--item--description">
+                                Лето на носу, а с ним и музыкальные фестивали. 
+                                На каком же из них вы разобьете свою палатку?
+                            </p>
+                            <p class="post-list--item--description">
+                                Мы составили список лучших летних фестивалей по всему миру.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="post-list--item">
+                        <img class="post-list--item--image"  src="/images/last-post4.jpg" alt="Картинка на тему кулинария">
+                        <div class="post-list--item--content">
+                            <ul class="trend-categories" >
+                                <li class="trend-category">
+                                    <a href="#0" class="trend-category--link">
+                                        lifestyle
+                                    </a>
+                                </li>
+                                <li class="trend-category">
+                                    <a href="#0" class="trend-category--link">
+                                        food
+                                    </a>
+                                </li>
+                            </ul>
+                            <h2 class="title-secondary title-secondary--post-list--item--content">
+                                <a href="#0" class="title--link">
+                                    Наукоёмкий подход к кулинарии
+                                </a>
+                            </h2>
+                            <div class="post-list--item--date-author">
+                                <div class="post-list--item--date">
+                                    10 июня 2019
+                                </div>
+                                <div class="post-list--item--author">
+                                    Неизвестный автор
+                                </div>
+                            </div>
+                            <p class="post-list--item--description">
+                                Узнаем основы проектирования новых пищевых и около-пищевых опытов, 
+                                вскроем физику, химию и микробиологию еды.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="post-list--item">
+                        <img class="post-list--item--image"  src="/images/last-post5.jpg" alt="Картинка модные принты">
+                        <div class="post-list--item--content">
+                            <ul class="trend-categories" >
+                                <li class="trend-category">
+                                    <a href="#0" class="trend-category--link">
+                                        lifestyle
+                                    </a>
+                                </li>
+                                <li class="trend-category">
+                                    <a href="#0" class="trend-category--link">
+                                        INTERIOR
+                                    </a>
+                                </li>
+                                <li class="trend-category">
+                                    <a href="#0" class="trend-category--link">
+                                        art
+                                    </a>
+                                </li>
+                            </ul>
+                            <h2 class="title-secondary title-secondary--post-list--item--content">
+                                <a href="#0" class="title--link">
+                                    делаем модные принты на подушках для интерьера 
+                                </a>
+                            </h2>
+                            <div class="post-list--item--date-author">
+                                <div class="post-list--item--date">
+                                    10 июня 2019
+                                </div>
+                                <div class="post-list--item--author">
+                                    Неизвестный автор
+                                </div>
+                            </div>
+                            <p class="post-list--item--description">
+                                Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, 
+                                если потребуется чистка подушек, проще снять чехлы, чем везти подушку 
+                                в химчистку.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
+        <aside class="side-bar">
+            <div class="latest-posts">
+                <div class="side-bar--titles">
+                    <h3 class="title-three">новые посты</h3>
+                    <div class="line-bottom"></div>
+                </div>
+                <div class="latest-posts-column">
+                    <ul class="posts-list">
+                        <li class="latest-post-list--item">
+                            <img class="latest-post-list--item--image"  src="/images/2.jpg" alt="Картинка песчанный берег">
+                            <div class="latest-post-list--item--content">                         
+                                <div class="post-list--item--date">
+                                    14 июня 2019
+                                </div>
+                                <h3 class="title-three latest-post-list--item--title-three">
+                                    <a href="#0" class="title--link">
+                                        10 мест, ради которых стоит проснуться
+                                    </a>
+                                </h3>
+                            </div>
+                        </li>
+
+            </div>
+
+        </aside>
+        
     </main>
-
-    <aside>
-
-    </aside>
 
     <footer>
 
